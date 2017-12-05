@@ -1,4 +1,5 @@
 # fantastic-enigma
+This is a merge conflict example
 When to RAID
 	Storage requirements > 16TB
 	Throughput requirements > 500 MB/s
