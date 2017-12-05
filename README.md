@@ -1,5 +1,4 @@
 # fantastic-enigma
-This is a merge conflict example
 When to RAID
 	Storage requirements > 16TB
 	Throughput requirements > 500 MB/s
@@ -14,4 +13,4 @@ Best practices: taking snapshots from Linux
 		Filesystem: sync and fsfreeze
 		EBS: snapshot all volumes
 		When CreateSnapshot API returns success, it is safe to resume.
-end
+
