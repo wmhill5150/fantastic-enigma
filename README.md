@@ -1,16 +1,27 @@
 # fantastic-enigma
-When to RAID
-	Storage requirements > 16TB
-	Throughput requirements > 500 MB/s
-	IOPS requirements > 20,000 @ 16K
-Avoid RAID for redundancy
-	EBS data is already replicated
-	RAID1 havles available EBS bandwidth
-	RAID5/6 loses 20-30% of usable I/O to parity
-Best practices: taking snapshots from Linux
-	Quiesce I/O
-		Database: FLUSH and LOCK tables
-		Filesystem: sync and fsfreeze
-		EBS: snapshot all volumes
-		When CreateSnapshot API returns success, it is safe to resume.
+# AWS Regions
+
+| Region | Location |
+| --- | --- |
+| us-east-1 | US East (N. Virginia) |
+| us-east-2 | US East (Ohio) |
+| us-west-1 | US West (N. California) |
+| us-west-2 | US West (Oregon) |
+| eu-west-1 | EU (Ireland) |
+| eu-west-2 | EU (London) |
+| eu-west-3 | EU (Paris) |
+| eu-central-1 | EU (Frankfurt) |
+| ap-southeast-1 | Asia Pacific (Singapore) |
+| ap-southeast-2 | Asia Pacific (Sydney) |
+| ap-northeast-1 | Asia Pacific (Tokyo) |
+| ap-northeast-2 | Asia Pacific (Seoul) |
+| ca-central-1 | Canada (Central) |
+| ap-south-1 | Asia Pacific (Mumbai) |
+| sa-east-1 | South America (São Paulo) |
+
+---
+
+#### GovCloud
+#### cn-north-1			China (Beijing)
+#### cn-northwest-1	China (Ningxia)
 
