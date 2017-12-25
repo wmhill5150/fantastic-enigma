@@ -18,10 +18,6 @@
 | ca-central-1 | Canada (Central) |
 | ap-south-1 | Asia Pacific (Mumbai) |
 | sa-east-1 | South America (São Paulo) |
-
----
-
-#### GovCloud
-#### cn-north-1			China (Beijing)
-#### cn-northwest-1	China (Ningxia)
-
+| cn-north-1 | China (Beijing)
+| cn-northwest-1 | China (Ningxia)
+| | GovCloud
